@@ -1,30 +1,30 @@
 # Exploratory Data Analysis Project
 
-This repository showcases a comprehensive Exploratory Data Analysis (EDA) project developed by Palash Gandhi, demonstrating key data analytics skills including data cleaning, statistical analysis, and visualization using Python tools like Pandas, Matplotlib, and Seaborn. [github](https://github.com/palashgandhi2002-web/exploratory_data_analysis_project)
+This repository features a SQL-driven Exploratory Data Analysis (EDA) project by Palash Gandhi, focusing on data querying, aggregation, statistical insights, and visualization through database analysis. [github](https://github.com/palashgandhi2002-web/exploratory_data_analysis_project)
 
 ## Project Overview
 
-The project follows the full EDA lifecycle: loading data, handling missing values and outliers, univariate/bivariate analysis, correlation studies, and insightful visualizations to uncover patterns and trends. [github](https://github.com/FuadAnalyst/EDA-Exploratory-Data-Analysis)
-It highlights practical applications of data exploration techniques suitable for business intelligence and decision-making. [github](https://github.com/topics/data-analytics-project)
-Ideal for portfolios, this work aligns with standard EDA practices seen in industry projects. [github](https://github.com/VenkyAdi/EDA---Projects)
+The project employs SQL for the complete EDA process: data extraction via complex queries, handling nulls and outliers with window functions, aggregations for distributions, correlations, and CTEs for multi-step analysis.
+Results drive business intelligence insights, aligning with your expertise in SQL-based data operations and ETL.[user-information]  
+Perfect for showcasing SQL proficiency in analytics portfolios. [github](https://github.com/PavelGrigoryevDS/awesome-data-analysis)
 
 ## Key Features
 
-- **Data Cleaning**: Removal of duplicates, null handling, and outlier detection via IQR and boxplots. [github](https://github.com/FuadAnalyst/EDA-Exploratory-Data-Analysis)
-- **Statistical Analysis**: Measures of central tendency, dispersion, and correlation matrices.
-- **Visualizations**: Histograms, scatter plots, heatmaps, and distribution plots for multi-dimensional insights. [github](https://github.com/Sukanyasingh3/Exploratory-data-analysis)
-- **Tools Used**: Python (Pandas, NumPy, Matplotlib, Seaborn, possibly Scikit-learn).[user-information]
+- **Data Querying**: Advanced SELECTs, JOINs, GROUP BY, and subqueries for cleaning and exploration.
+- **Statistical Analysis**: Aggregates (AVG, MEDIAN via PERCENTILE_CONT), variance, and correlation via custom SQL.
+- **Visualizations**: SQL-generated results exported to Tableau/Google Sheets for charts (histograms, heatmaps).[user-information]
+- **Techniques**: Window functions (ROW_NUMBER, LAG), pivots, and case statements for insights.
 
 ## Tech Stack
 
-| Category       | Tools/Libraries              |
-|----------------|------------------------------|
-| Programming   | Python, Jupyter Notebook    |
-| Data Manipulation | Pandas, NumPy             |
-| Visualization | Matplotlib, Seaborn, Tableau (optional) |
-| Analysis      | Statistical methods, SQL queries |
+| Category       | Tools/Technologies          |
+|----------------|-----------------------------|
+| Querying      | SQL (PostgreSQL/MySQL)     |
+| Data Manipulation | CTEs, Window Functions    |
+| Visualization | Tableau, Google Sheets     |
+| Environment   | Jupyter/SQL Client         |
 
- [github](https://github.com/PavelGrigoryevDS/awesome-data-analysis)
+ [github](https://github.com/FuadAnalyst/EDA-Exploratory-Data-Analysis)
 
 ## Getting Started
 
@@ -32,28 +32,22 @@ Ideal for portfolios, this work aligns with standard EDA practices seen in indus
    ```
    git clone https://github.com/palashgandhi2002-web/exploratory_data_analysis_project.git
    ```
-2. Install dependencies:
+2. Set up your database (e.g., import dataset to PostgreSQL).
+3. Run SQL scripts:
    ```
-   pip install -r requirements.txt
+   psql -d your_db -f eda_queries.sql
    ```
-3. Open and run the main notebook (e.g., `EDA_Project.ipynb`):
-   ```
-   jupyter notebook EDA_Project.ipynb
-   ```
+4. Visualize outputs in Tableau or Sheets.
 
 ## Usage
 
-Run the Jupyter notebook sequentially to replicate the analysis. Customize the dataset path in the loading section for your data. [github](https://github.com/Sukanyasingh3/Exploratory-data-analysis)
-Example: Insights might include top trends, feature relationships, and recommendations for further modeling.
+Execute scripts sequentially for full analysis. Adapt queries to your dataset schema. Example: Identify top trends via `RANK()` over partitions.
 
 ## Contributing
 
-- Fork the repo and create a feature branch.
-- Add your EDA notebooks or improvements.
-- Submit a pull request with detailed changes.
-
-Feedback welcome to enhance this portfolio project!
+- Fork and add SQL enhancements.
+- Pull requests with query optimizations welcome.
 
 ## License
 
-MIT License - feel free to use and adapt.
+MIT License.
