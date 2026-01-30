@@ -19,10 +19,10 @@ Perfect for showcasing SQL proficiency in analytics portfolios. [github](https:/
 
 | Category       | Tools/Technologies          |
 |----------------|-----------------------------|
-| Querying      | SQL (PostgreSQL/MySQL)     |
+| Querying      | SQL (MySQL)     |
 | Data Manipulation | CTEs, Window Functions    |
 | Visualization | Tableau, Google Sheets     |
-| Environment   | Jupyter/SQL Client         |
+| Environment   | SQL Client         |
 
  [github](https://github.com/FuadAnalyst/EDA-Exploratory-Data-Analysis)
 
